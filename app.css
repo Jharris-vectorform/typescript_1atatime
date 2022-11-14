@@ -1,0 +1,36 @@
+:root {
+  --primaryGrey: #E6ECEE;
+  --primaryGreyFont: #666666;
+  --fs40px: 2.6vw;
+  --fs28px: 1.94vw;
+  --fs24px: 1.65vw;
+  --fs16px: 1.11vw;
+  --fs14px: 0.972vw;
+  --fs12px: 0.83vw;
+  --darkBlueButton: #3C5D69;
+  --greyButton: #CDD9DD;
+  --redButton: #E31F26;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.font14 {
+  font-size: 14px;
+}
+.font12 {
+  font-size: 12px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
